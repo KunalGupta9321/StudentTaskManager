@@ -5,8 +5,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
   const [title, setTitle] = useState("");
 
-  const API_URL = "http://localhost:5000/api/tasks";
-
+  const API_URL = "https://studenttaskmanager-30mh.onrender.com/api/tasks";
   // Fetch tasks from backend
   const fetchTasks = async () => {
     try {
